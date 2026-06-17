@@ -12,6 +12,8 @@ int main(){
 }
 
 /*
+O(n)
+
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {

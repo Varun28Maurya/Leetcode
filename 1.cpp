@@ -1,22 +1,20 @@
-#include<iostream>
-using namespace std;
-int main()
-{
-    int nums[3] = {3,2,4};
-int target = 6;
+/*
+Brute Force approach 
+O(n^2)
 
-int n = sizeof(nums)/sizeof(int);
-int i = 0;
-int j = n - 1;
-while(i<j)
-{
-    int sum=nums[i]+nums[j];
-    if(sum<target)
-    {
-        i++;
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        int n = nums.size();
+
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                if (nums[i] + nums[j] == target) {
+                    return {i, j};
+                }
+            }
+        }
+        return {};
     }
-    else if()
-
-}
-    return 0;
-}
+};
+*/

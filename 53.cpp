@@ -23,6 +23,8 @@ int main()
 }
 
 /*
+O(n)
+
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
